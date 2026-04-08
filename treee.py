@@ -30,13 +30,10 @@ class Trie:
                 return False
             node = node.children[char]
         return True
-
 trie = Trie()
-
 trie.insert("apple")
 print("Search 'apple':", trie.search("apple"))       
 print("Search 'app':", trie.search("app"))           
 print("StartsWith 'app':", trie.startsWith("app"))   
-
 trie.insert("app")
 print("Search 'app':", trie.search("app"))           
