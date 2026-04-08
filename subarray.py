@@ -7,11 +7,7 @@ def maxSubArray(nums):
         max_sum = max(max_sum, current_sum)
 
     return max_sum
-
-
-# Input
 nums = [-2, 1, -3, 4, -1, 2, 1, -5, 4]
 
-# Output
 result = maxSubArray(nums)
 print("Maximum Subarray Sum:", result)
